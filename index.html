@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INM420</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/2216cb6a92.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul> 
+                    <p><a href="">About NASA</a></p>
+                    <p><a href="">More Info</a></p>
+                    <p><a href="">Blog</a></p>
+                    <p><a href="">Copyright</a></p>
+                </ul>
+            </nav>            
+        </div>  
+    </header>
+
+    <h1>NASA Astronomy Picture of the Day</h1>
+    
+    <form id="apod-form">
+        <label for="date-input">Select a date:</label>
+        <input type="date" id="date-input" name="date">
+        <button type="submit">Get your pic</button>
+    </form>
+
+    <div id="apod-info"></div>
+    
+<!-- footer -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-social-links">
+                <a href="Facebook" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+                <a href="Twitter" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+                <a href="Instagram" target="_blank"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+                <a href="Youtube" target="_blank"><i class="fa fa-youtube-play"></i><span>Youtube</span></a>
+                <a href="Pinterest" target="_blank"><i class="fa fa-pinterest"></i><span>Pinterest</span></a>
+            </div> 
+            
+            <div id="footer-copyright">
+                &copy; 2024 NASA - All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
